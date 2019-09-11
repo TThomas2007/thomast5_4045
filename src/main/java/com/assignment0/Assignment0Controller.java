@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class Assignment0Controller {
 
-	@RequestMapping("/start")
+	@RequestMapping("/index")
 	public String start() {
-		return "start";
+		return "index";
 	}
 }
